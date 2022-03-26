@@ -10,6 +10,7 @@ What's actually happened behind the scene of this sentiment prediction app?
 6. The program then uses the pre-trained Gradient Boosting Classifier algorithm to predict the sentiment based on the transformed feature vectors. 
 
 **Libraries used:**
+- NLTK
 - 
 
 You may click on this link to explore the app: https://share.streamlit.io/jeffwongqy/sentiment-prediction-on-coronavirus-tweet/main/app.py
