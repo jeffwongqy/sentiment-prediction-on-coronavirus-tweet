@@ -9,6 +9,7 @@ What's actually happened behind the scene of this sentiment prediction app?
 5. Prior to prediction analysis, the program uses the TFIDF vectorize library to transform the pre-processed input text or tweets into feature vectors.
 6. The program then uses the pre-trained Gradient Boosting Classifier algorithm to predict the sentiment based on the transformed feature vectors. 
 
-- GBC achieved 86% accuracy on testing set. 
+**Libraries used:**
+- 
 
-You may click on this link to view/use the app: https://share.streamlit.io/jeffwongqy/sentiment-prediction-on-coronavirus-tweet/main/app.py
+You may click on this link to explore the app: https://share.streamlit.io/jeffwongqy/sentiment-prediction-on-coronavirus-tweet/main/app.py
