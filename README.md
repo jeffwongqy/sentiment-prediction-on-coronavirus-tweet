@@ -1,1 +1,1 @@
-# sentiment-prediction-on-coronavirus-tweet
+# Sentiment Prediction on Coronavirus Tweets
