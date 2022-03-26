@@ -4,7 +4,7 @@ This app uses state-of-the-art machine learning algorithm (i.e. Gradient Boostin
 
 What's actually happened behind the scene of this sentiment prediction app? 
 1. The program receives input text or tweets from the user. 
-2. The program performs pre-processing (i.e. text cleaning) on the input text or tweets such as normalization, removing stopwords, word tokenization, removing short-words, and word lemmatization. 
+2. The program performs pre-processing (i.e. text cleaning) on the input text or tweets such as removing special characters removing punctuations, removing digits, removing stopwords, word tokenization, removing short-words, and word lemmatization. 
 3. After pre-processing, the program then re-joined the cleaned tokenized text into a string of sentences. 
 5. Prior to prediction analysis, the program uses the TFIDF vectorize library to transform the pre-processed input text or tweets into feature vectors.
 6. The program then uses the pre-trained Gradient Boosting Classifier algorithm to predict the sentiment based on the transformed feature vectors. 
