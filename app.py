@@ -5,12 +5,14 @@ import re
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
+
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
 nltk.download('omw-1.4')
 
+pip install imblearn
 ###############################################################################
 ######################### IMPORT GBC MODEL ####################################
 ###############################################################################
