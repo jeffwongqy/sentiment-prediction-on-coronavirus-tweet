@@ -1,6 +1,6 @@
 # Sentiment Prediction on Coronavirus Tweets
 
-This app uses state-of-the-art machine learning algorithm (i.e. Gradient Boosting Classifier or GBC) to predict sentiment outcome on coronavirus tweets. 
+This app uses state-of-the-art machine learning algorithm (i.e. Gradient Boosting Classifier or GBC) to predict sentiment outcome (i.e. negative, positive or neutral) on coronavirus tweets. 
 
 What's actually happened behind the scene of this sentiment prediction app? 
 1. The program receives input text or tweets from the user. 
@@ -11,6 +11,9 @@ What's actually happened behind the scene of this sentiment prediction app?
 
 **Libraries used:**
 - NLTK
-- 
+- Pandas
+- Numpy
+- Sklearn
+- Matplotlib
 
 You may click on this link to explore the app: https://share.streamlit.io/jeffwongqy/sentiment-prediction-on-coronavirus-tweet/main/app.py
